@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f7fc;
+    color:#333;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#0d6efd;
+    color:white;
+    padding:20px 50px;
+    position:sticky;
+    top:0;
+}
+
+header h2{
+    font-size:28px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+section{
+    padding:80px 10%;
+}
+
+#home{
+    text-align:center;
+    background:linear-gradient(135deg,#0d6efd,#6ea8fe);
+    color:white;
+    padding:120px 20px;
+}
+
+#home h1{
+    font-size:50px;
+}
+
+#home h3{
+    margin-top:10px;
+    font-size:30px;
+}
+
+#home p{
+    margin:20px 0;
+    font-size:18px;
+}
+
+button{
+    padding:12px 25px;
+    background:#ffc107;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:16px;
+    font-weight:bold;
+}
+
+button:hover{
+    background:#ff9800;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+#about p{
+    max-width:700px;
+    margin:auto;
+    text-align:center;
+    line-height:1.8;
+}
+
+#skills ul{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+    list-style:none;
+}
+
+#skills li{
+    background:#0d6efd;
+    color:white;
+    padding:12px 20px;
+    border-radius:25px;
+}
+
+.card{
+    width:320px;
+    margin:auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+    text-align:center;
+}
+
+form{
+    max-width:500px;
+    margin:auto;
+}
+
+input,textarea{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+textarea{
+    height:120px;
+}
+
+footer{
+    background:#0d6efd;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:50px;
+}
+
+@media(max-width:768px){
+
+header{
+    flex-direction:column;
+}
+
+nav{
+    margin-top:15px;
+}
+
+nav a{
+    display:block;
+    margin:10px 0;
+}
+
+#home h1{
+    font-size:35px;
+}
+
+}
